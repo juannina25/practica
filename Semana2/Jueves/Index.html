@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es una paguna de ejemplo de formulario">
+    <meta name="keywords" content="Formularios">
+    <title>Formularios</title>
+    <!-- <style>
+        input:valid{
+            background-color: green;
+        }
+        input:invalid{
+            background-color: red;
+        }
+    </style> -->
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" id="edad">
+        </div>
+        <div>
+            <label>Fecha</label>
+            <input type="date">
+        </div>
+        <div>
+            <label>Correo</label>
+            <input type="email">
+        </div>
+        </div>
+        <div>
+            <label>Telefono</label>
+            <input type="tel" pattern="[0-9]{9}">
+        </div>
+        <div>
+            <label>Contaseña</label>
+            <input type="password" minlength="8" maxlength="16">
+        </div>
+        <div>
+            <label>Color</label>
+            <input type="color">
+        </div>
+        <div>
+            <label>Archivo</label>
+            <input type="file">
+        </div>
+        <div>
+            <label>Rango</label>
+            <input type="range" value="" min="1" max="100">
+        </div>
+        <div>
+            <label>Url</label>
+            <input type="url">
+        </div>
+        <!-- Limpia  todo el formulario. Debe de estar dentro del formulario -->
+        <div>
+            <label>Limpiar</label>
+            <input type="reset">
+        </div>
+        <div>
+            <label>Buscar</label>
+            <input type="search">
+        </div>
+    </form>
+</body>
+</html>
