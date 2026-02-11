@@ -20,34 +20,88 @@
 
 body{
     background-color: var(--body-background);
+    background-image: url(/Semana3/Jueves/simple-feature-section-master/resources/Background_image.svg);
+    background-position: center;
+    background-size: contain;
+
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    gap: 3em;
+
+
 }
 
 h1, h3{
     color: var(--title-color);
 }
+header{
+    text-align: center;
+    width: 350px;
+}
 header p{
     color: var(--gray1);
+    margin-top: 1em;
+    
+}
+header h1{
+    font-size: 40zx;
 }
 /* Estilos para las tarjeras */
 article{
     background-color: var(--card-background);
-}
-.card-description{
-    color: var(--gray2);
-}
-main{
+    width: 250px;
+    border-radius: 20px;
+
+    padding: 2em;
+
     display: flex;
+    flex-direction: column;
     gap: 1em;
 }
 
-/* .emoji{
+main{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+
+    width: 90%;
+}
+
+
+.emoji{
     background-color: var(--skyblue);
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    align-content: center;
-    text-align: center;
-} */
+    width: fit-content;
+    padding: .5em;
+    border-radius: 50%;
+    font-size: 20px;
+}
+article:nth-child(1) .emoji{
+    background-color: var(--yellow);
+}
+article:nth-child(2) .emoji{
+    background-color: var(--skyblue);
+}
+article:nth-child(3) .emoji{
+    background-color: var(--pink);
+}
+article img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.card-description{
+    color: var(--gray2);
+}
+
+article p{
+    font-weight: 400;
+}
