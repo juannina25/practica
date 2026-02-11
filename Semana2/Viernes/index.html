@@ -15,7 +15,7 @@
         body{
             background-color: rgb(1, 82, 82);
         }
-        div{
+        .unico{
             padding: 100px;
         }
         button{
@@ -57,10 +57,39 @@
             background-color: red;
         }
 
+        .card{
+            background-color: rgb(49, 49, 49);
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+
+        }
+        img{
+            width: 100%;
+            border-radius: 15px;
+        }
+        
+        .card-titulo{
+            color: rgb(241, 239, 239);
+        }
+        .card-desciption{
+            color: #15144f;
+            text-align: center;
+            background-color: rgb(156, 56, 252);
+
+            /* Volverlo negrita */
+            font-weight: bold;
+            /* agregar subrayado */
+            text-decoration: underline;
+            font-size: 16px;
+
+        }
+
     </style>
 </head>
 <body>
-    <div >
+    <!-- <div  class="unico">
         <h1>Este es una prueba</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi delectus maiores nesciunt numquam vitae odio expedita dicta laboriosam laborum deleniti soluta, exercitationem tempora architecto recusandae optio, sint laudantium molestias.</p>
         <button>
@@ -77,5 +106,27 @@
         </button>
         <br>
         <a href="#">Pagina de inicio</a>
+    </div> -->
+    <div class="card">
+        <img src="../../Semana1/gatitos.jpg" alt="">
+        <div>
+            <p class="card-titulo">Gatitos Blancos</p>
+            <p class="card-desciption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro saepe repellendus libero maxime modi corporis labore expedita, nostrum praesentium facere obcaecati assumenda fuga similique fugiat suscipit quasi beatae repudiandae! Magnam.</p>
+        </div>
     </div>
+    <div class="card">
+        <img src="../../Semana1/gatitos.jpg" alt="">
+        <div>
+            <p class="card-titulo">Tres feroces carros</p>
+            <p class="card-desciption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro saepe repellendus libero maxime modi corporis labore expedita, nostrum praesentium facere obcaecati assumenda fuga similique fugiat suscipit quasi beatae repudiandae! Magnam.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../../Semana1/gatitos.jpg" alt="">
+        <div>
+            <p class="card-titulo">Los liones</p>
+            <p class="card-desciption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro saepe repellendus libero maxime modi corporis labore expedita, nostrum praesentium facere obcaecati assumenda fuga similique fugiat suscipit quasi beatae repudiandae! Magnam.</p>
+        </div>
+    </div>
+</body>
 </html>
