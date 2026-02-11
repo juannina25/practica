@@ -33,8 +33,9 @@ body{
     justify-content: center;
     align-items: center;
 
-    height: 100vh;
+    min-height: 100vh;
     gap: 3em;
+    /* padding: 3em 0; */
 
 
 }
@@ -45,6 +46,7 @@ h1, h3{
 header{
     text-align: center;
     width: 350px;
+    margin-top: 3em;
 }
 header p{
     color: var(--gray1);
@@ -72,7 +74,10 @@ main{
     gap: 2em;
     justify-content: center;
 
-    width: 90%;
+    /* width: 90%; */
+
+    flex-wrap: wrap;
+
 }
 
 
@@ -104,4 +109,16 @@ article img{
 
 article p{
     font-weight: 400;
+}
+
+@media (width <1025px){
+    body{
+        padding: 3em 0;
+    }
+}
+@media (width <=640px) {
+    header{
+        width: 95%;
+    }
+    
 }
