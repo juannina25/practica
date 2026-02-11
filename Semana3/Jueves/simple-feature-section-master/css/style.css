@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit&display=swap');
+
+
+:root{
+    --yellow: #FCEED8;
+    --body-background: #121826;
+    --gray1: #9DA3AE;
+    --title-color: #E5E7EB;
+    --pink: #FBE5E6;
+    --skyblue: #DEE9FC;
+    --gray2: #D2D5DA;
+    --card-background:#212936;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--body-background);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1, h3{
+    color: var(--title-color);
+}
+header p{
+    color: var(--gray1);
+}
+/* Estilos para las tarjeras */
+article{
+    background-color: var(--card-background);
+}
+.card-description{
+    color: var(--gray2);
+}
+main{
+    display: flex;
+    gap: 1em;
+}
+
+/* .emoji{
+    background-color: var(--skyblue);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    align-content: center;
+    text-align: center;
+} */
